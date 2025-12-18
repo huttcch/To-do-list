@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- เชื่อม CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="title">รายการที่ต้องทำ</h1>
+
+    <button class="lang-btn" onclick="toggleLanguage()">TH / EN</button>
+
+    <input type="text" id="todoInput" placeholder="พิมพ์งานที่ต้องทำ...">
+    <button id="addBtn" onclick="addTodo()">เพิ่มงาน</button>
+
+    <ul id="todoList"></ul>
+</div>
+
+<!-- เชื่อม JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
